@@ -14,6 +14,7 @@
 		194489C71BB0DB1200A0D7B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194489C61BB0DB1200A0D7B2 /* Images.xcassets */; };
 		194489CA1BB0DB1200A0D7B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 194489C81BB0DB1200A0D7B2 /* LaunchScreen.xib */; };
 		194489D61BB0DB1200A0D7B2 /* UIApp16_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 194489D51BB0DB1200A0D7B2 /* UIApp16_1Tests.m */; };
+		199D4BF81BB1A8EB00B51D8C /* myViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199D4BF71BB1A8EB00B51D8C /* myViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		194489CF1BB0DB1200A0D7B2 /* UIApp16_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIApp16_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		194489D41BB0DB1200A0D7B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		194489D51BB0DB1200A0D7B2 /* UIApp16_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIApp16_1Tests.m; sourceTree = "<group>"; };
+		199D4BF61BB1A8EB00B51D8C /* myViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myViewController.h; sourceTree = "<group>"; };
+		199D4BF71BB1A8EB00B51D8C /* myViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				194489C61BB0DB1200A0D7B2 /* Images.xcassets */,
 				194489C81BB0DB1200A0D7B2 /* LaunchScreen.xib */,
 				194489B91BB0DB1200A0D7B2 /* Supporting Files */,
+				199D4BF61BB1A8EB00B51D8C /* myViewController.h */,
+				199D4BF71BB1A8EB00B51D8C /* myViewController.m */,
 			);
 			path = UIApp16_1;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				194489C21BB0DB1200A0D7B2 /* ViewController.m in Sources */,
 				194489BF1BB0DB1200A0D7B2 /* AppDelegate.m in Sources */,
+				199D4BF81BB1A8EB00B51D8C /* myViewController.m in Sources */,
 				194489BC1BB0DB1200A0D7B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +422,7 @@
 				194489DB1BB0DB1200A0D7B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		194489DC1BB0DB1200A0D7B2 /* Build configuration list for PBXNativeTarget "UIApp16_1Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				194489DE1BB0DB1200A0D7B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
